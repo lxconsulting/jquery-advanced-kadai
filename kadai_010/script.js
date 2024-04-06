@@ -78,6 +78,9 @@ $(function () {
   $('#message').blur(function () {
     inputCheck();
   });
+  $('#prefecture').click(function () {
+    inputCheck();
+  });
   $('#agree').click(function () {
     inputCheck();
   });
